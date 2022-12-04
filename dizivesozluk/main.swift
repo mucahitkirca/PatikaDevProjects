@@ -35,7 +35,7 @@ print(arr2)
 arr2.append(14)
 arr2.append(8)
 let lastItem = arr2.popLast() //son veriyi siliyor, sonra aynı şekilde geri döndürüyor.
-print(lastItem)
+
 print(arr2)
 
 
@@ -45,7 +45,7 @@ var dict3: Dictionary<String,Double>
 
 dict2["pi"] = 3.14 //sözlüğe veri eklemek
 dict2["g"] = 9.81
-print(dict2["pi"])
+
 print(dict2.count)
 
 dict2.removeValue(forKey: "pi") //sözlükten veri silmek
